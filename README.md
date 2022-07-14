@@ -72,13 +72,13 @@ Methods: <br />
         *  `rolls` : int <br />
            int type parameter of how many times each die is to be rolled.
     * Returns:
-        * None 
+        * None
 * `show_result(self, form="wide")`
     * A method to return the dataframe including the most recent result from the play method.
     * Parameter(s):
         * `form` : string <br />
           String parameter to determine the format of the returned dataframe. Takes either "narrow" or "wide". <br />
-          Defaults to "wide" 
+          Defaults to "wide"
     * Raises:
         * `ValueError` <br />
           if the value of the variable form is not "narrow" or "wide", show_result will throw this error.
@@ -110,7 +110,7 @@ Methods: <br />
     * The initializer function creates the Analyzer object.
     * Parameter(s):
         * `game` : Game <br />
-          game is a Game object that is to be analyzed. 
+          game is a Game object that is to be analyzed.
 * `jackpot(self)`
     * A method to count the occurrence of jackpots in the game.
     * Parameter(s):
@@ -126,7 +126,7 @@ Methods: <br />
           Defaults to False.
     * Returns:
         * Pandas dataframe including all combinations or permutations from a game. <br />
-          The face values are turned into multi-indexes. The column shows the occurrences of each combination/permutation. 
+          The face values are turned into multi-indexes. The column shows the occurrences of each combination/permutation.
 * `face_counts(self)`
     * A method to return the dataframe that counts the occurrence of each face value in each roll.
     * Parameter(s):
@@ -134,6 +134,8 @@ Methods: <br />
     * Returns:
         * Pandas dataframe including the counts of the occurrence of each face value in each roll. <br />
           The indexes indicate the roll number, and the columns indicate the face values of the dice.
+
+
 
 ## Synopsis
 Show demo code of how the classes are used, i.e.

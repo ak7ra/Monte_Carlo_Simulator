@@ -141,12 +141,23 @@ Methods: <br />
 
 
 ## Synopsis
-Show demo code of how the classes are used, i.e.
-installing
-importing
-Creating dice
-Playing games
-Analyzing games.
+
+### Installing
+
+After downloading this repository, run the code: <br />
+`pip install .`
+
+### Importing
+
+Import the montecarlo library with the code: <br />
+`import montecarlo` <br />
+
+When trying to import a specific class within the montecarlo library, run the code: <br />
+`from montecarlo import insert_class_name` <br />
+insert_class_name can be Die, Game, or Analyzer.
+
+### Using Each Class Object
+
 
 
 ## Manifest

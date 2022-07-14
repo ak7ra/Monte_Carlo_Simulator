@@ -53,6 +53,7 @@ Methods: <br />
         * None
     * Returns:
         * the pandas dataframe consisting of faces and weights of the die
+
 #### Game class
 The Game object takes in a list of die to make a game. <br />
 A game consists of rolling of one or more dice of the same kind one or more times. <br />

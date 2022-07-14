@@ -106,7 +106,9 @@ Attributes: <br />
 * `die_type` : string <br />
   die_type is a string type attribute. It stores the string specifying the type of face values of the dice.
 <br />
+
 Methods: <br />
+
 * `__init__(self, game)`
     * The initializer function creates the Analyzer object.
     * Parameter(s):

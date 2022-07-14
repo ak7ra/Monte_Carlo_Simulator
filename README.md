@@ -158,25 +158,3 @@ Analyzing games.
 * LICENSE
 * README.md
 
-
-
-
-Use `pip` to install the package from PyPI:
-
-```bash
-pip install lyricsgenius
-```
-
-Or, install the latest version of the package from GitHub:
-
-```bash
-pip install git+https://github.com/johnwmillr/LyricsGenius.git
-```
-
-## Usage
-Import the package and initiate Genius:
-
-```python
-import lyricsgenius
-genius = lyricsgenius.Genius(token)
-```

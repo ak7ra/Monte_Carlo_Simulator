@@ -1,0 +1,19 @@
+test_change_weight_face_not_exist (__main__.SimulatorClassesTestCase) ... ok
+test_change_weight_happypath (__main__.SimulatorClassesTestCase) ... ok
+test_change_weight_not_float (__main__.SimulatorClassesTestCase) ... ok
+test_combo (__main__.SimulatorClassesTestCase) ... ok
+test_combo_permutation (__main__.SimulatorClassesTestCase) ... ok
+test_face_counts (__main__.SimulatorClassesTestCase) ... ok
+test_jackpot (__main__.SimulatorClassesTestCase) ... ok
+test_play (__main__.SimulatorClassesTestCase) ... ok
+test_roll_multiple (__main__.SimulatorClassesTestCase) ... ok
+test_roll_one (__main__.SimulatorClassesTestCase) ... ok
+test_show_faces_weights (__main__.SimulatorClassesTestCase) ... ok
+test_show_results_narrow (__main__.SimulatorClassesTestCase) ... ok
+test_show_results_wide (__main__.SimulatorClassesTestCase) ... ok
+test_show_results_wrong_input (__main__.SimulatorClassesTestCase) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.159s
+
+OK

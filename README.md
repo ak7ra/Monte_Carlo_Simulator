@@ -255,12 +255,23 @@ analyzer_object.die_type
 
 
 ## Manifest
-* __init__.py
-* montecarlo.py
-* montecarlo_tests.py
-* montecarlo_demo.ipynb
+
+* Monte_Carlo_Simulator.egg-info
+  * PKG-INFO
+  * SOURCES.txt
+  * dependency_links.txt
+  * top_level.txt
+* montecarlo
+  * __pycache__
+    * __init__.cpython-39.pyc
+    * montecarlo.cpython-39.pyc
+  * __init__.py
+  * montecarlo.py
 * FinalProjectSubmission.ipynb
 * FinalProjectSubmission.pdf
-* setup.py
 * LICENSE
+* Montecarlo_test_results.txt
 * README.md
+* montecarlo_demo.ipynb
+* montecarlo_tests.py
+* setup.py
